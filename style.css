@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+nav {
+  text-align: center;
+}
+nav a {
+  padding: 0px 10px;
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+figcaption {
+  font-size: 14px;
+}
+#featured-property {
+  width: 800px;
+  margin: 0 auto;
+}
+#featured-property p {
+  text-align: center;
+}
+#details > div {
+  float: left;
+  text-align: center;
+  background-color: gray;
+  width: 25%;
+  color: white;
+}
+#details a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
